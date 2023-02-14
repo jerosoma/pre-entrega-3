@@ -1,0 +1,217 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-image: url(../images/olla104.jpg); 
+      background-attachment: fixed; background-size: auto;
+line-height: 1.6; 
+letter-spacing: 5px;
+word-spacing: 30 px;
+
+background: linear-gradient(to bottom);
+}
+
+li { 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+ text-decoration-line: none;
+font-weight: bold; color: black;
+list-style-type: none;
+padding: 20px;}
+
+p {margin: 20px 16px 30px 16px; 
+}
+
+.img {width: 300px; height: 250px;}
+
+.menu {border: solid 4px rgb(56, 54, 54); 
+     border-radius: 5px;
+margin-left: 200px; 
+margin-right: 100px;
+background-color: rgb(203, 204, 165);
+margin-bottom: 80px ; 
+margin-top: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+text-align: center;
+text-decoration: none; 
+padding: 26px;
+display: flex;
+ flex-direction: row;
+
+
+}
+
+iframe {margin: 20px;
+     padding: 20px;
+     text-align: center;
+     width: 100%; 
+     height: 75%;   
+}
+
+.imgIndex { width: 75%;
+     height: 100%;
+}
+
+#logo {width: 140px;
+height: 180 px; 
+margin: 20px;
+margin-left: 40px; align-items: center;
+
+}
+
+#imgbio {width: 400px; 
+     height: 370px; 
+     margin: 50px;
+}
+
+a {text-decoration: none
+}
+
+.pIndex {
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     font-weight: lighter; 
+     font-size: large;
+     text-align: justify;
+     margin: 20px;
+     padding: 20px; 
+     background-color: rgb(255, 251, 251);
+}
+
+h1 {font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     font-weight: bolder; font-size: larger;
+padding: 30px; 
+text-align: left; 
+color: rgb(243, 240, 240); background-color: black;
+}
+
+h2 {font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     font-weight: bold; font-size: large;
+}
+
+#form {background-color: rgb(114, 106, 106);}
+
+
+
+.articulo {display: grid; 
+     grid-template-columns: 2fr 2fr;
+     grid-template-rows: 2fr 2fr;
+     justify-items: center;
+     margin-top: 20px;
+}
+
+
+
+
+.menu li:hover {color: rgb(248, 159, 51);
+     font-weight: bolder;
+     background-color: rgb(117, 114, 114);
+     list-style: none;
+     border-radius: 5%;
+}
+
+
+
+.ilustracion {display: grid; 
+     grid-template-columns: 2fr 2fr; 
+     grid-template-rows: 2fr 2fr; 
+     align-items: center;
+}
+.aerografia {display: grid;
+     grid-template-columns: 2fr 2fr 2fr;
+      grid-template-rows: 2fr 2fr;
+     }
+
+.lista { margin: 60px;
+padding: 35px;
+}
+
+.bio {display: flex; 
+}
+
+.siluetazo {display: grid; 
+     grid-template-columns: 2fr 2fr;
+}
+
+.img__cuad {height: 300px;
+      width: 250px;}
+
+.img__aero {height: 300px; 
+     width: 250px;}
+
+.bio {display: flex; }
+
+footer {display: flex ; flex-direction: row;}
+
+.header {display: flex; flex-direction: row;}
+
+.formulario {background-color: rgb(224, 215, 215);
+     width: 50%; 
+     border: solid 3px black; 
+     margin: auto;
+     padding: 30px; 
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     border-radius: 1%;
+}
+
+.btn {font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+}
+
+
+
+.carousel-item { height: 600px;
+     width: 450px; margin-left: 35%; 
+     margin-right: 35%;
+     margin-top: 10%; margin-bottom: 10%;
+
+}
+
+
+@media only screen and ( max-width: 500px) {
+     .menu { flex-direction: column; 
+          align-items: center;
+          justify-content: center;
+
+     }
+
+     .header { flex-direction: column; 
+          align-items: center; 
+          justify-content: center;
+
+     }
+
+     footer {flex-direction: column; 
+          align-items: center; 
+          justify-items: center;
+     }
+
+     .articulo { display: flex;
+          flex-direction: column; 
+          align-items: center;
+      }
+
+     .bio { flex-direction: column; 
+          align-items: center;
+
+     }
+
+     .ilustracion { display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+     .aerografia { display: flex;
+          flex-direction: column;
+          align-items: center;
+
+     }
+
+     .siluetazo {display: flex;
+          flex-direction: column;
+          align-items: center;
+
+     }     
+     #logo { align-items: center;
+
+     }
+}

@@ -1,0 +1,8 @@
+body {
+  background-image: url(../images/olla104.jpg);
+  background-attachment: fixed;
+  background-size: auto;
+  line-height: 1.6;
+  letter-spacing: 5px;
+  word-spacing: 30 px;
+  background: linear-gradient(to bottom); }

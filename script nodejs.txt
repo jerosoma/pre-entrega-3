@@ -1,0 +1,12 @@
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+
+
+3 - Inicia el la instalación del compilador, con "npm init"
+4 - Instala el nodemon: "npm install -D node-sass nodemon"
+     (crea las carpetas NODE MODULES)
+5 - Edita el package.json e inserta los lineas.
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+6 - Compilar con: "npm run watch-css"
