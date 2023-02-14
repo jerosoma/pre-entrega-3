@@ -6,3 +6,18 @@ body {
   letter-spacing: 5px;
   word-spacing: 30 px;
   background: linear-gradient(to bottom); }
+
+.menu {
+  border: solid 4px #383636;
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-right: 100px;
+  background-color: #cbcca5;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  padding: 26px;
+  display: flex;
+  flex-direction: row; }
