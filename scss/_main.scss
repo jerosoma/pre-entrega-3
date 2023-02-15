@@ -1,0 +1,89 @@
+
+h1 {font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: bolder; font-size: larger;
+padding: 30px; 
+text-align: left; 
+color: rgb(243, 240, 240); background-color: black;
+}
+
+h2 {font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: bold; font-size: large;
+}
+
+.articulo {display: grid; 
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.pIndex {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: lighter; 
+    font-size: large;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px; 
+    background-color: rgb(255, 251, 251);
+}
+
+.imgIndex { width: 75%;
+    height: 100%;
+}
+
+
+.bio {display: flex; 
+}
+
+#imgbio {width: 400px; 
+    height: 370px; 
+    margin: 50px;
+}
+
+.ilustracion {display: grid; 
+    grid-template-columns: 2fr 2fr; 
+    grid-template-rows: 2fr 2fr; 
+    align-items: center;
+}
+
+.img {width: 300px; height: 250px;}
+
+.lista { margin: 60px;
+        padding: 35px;
+        list-style: none;
+    
+}
+
+.siluetazo {display: grid; 
+    grid-template-columns: 2fr 2fr;
+}
+
+iframe {margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%; 
+    height: 75%;   
+}
+
+.formulario {background-color: rgb(224, 215, 215);
+    width: 50%; 
+    border: solid 3px black; 
+    margin: auto;
+    padding: 30px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 1%;
+}
+
+.btn {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.carousel-item { height: 600px;
+    width: 450px; margin-left: 35%; 
+    margin-right: 35%;
+    margin-top: 10%; margin-bottom: 10%;
+
+}
